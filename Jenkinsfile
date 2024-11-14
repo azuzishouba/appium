@@ -9,8 +9,7 @@ pipeline {
 
     stage('test') {
       steps {
-        sh '''pip install --user pytest
-'''
+        sh 'sudo apt install pytest'
       }
     }
 
